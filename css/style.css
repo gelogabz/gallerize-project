@@ -1,0 +1,18 @@
+@import url(pc.css) screen and (min-width: 641px);
+@import url(mobile.css) screen and (max-width: 640px);
+
+:root {
+    --color-primary: #009688;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+}
+
+#container {
+    width: 100%;
+}
